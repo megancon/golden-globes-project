@@ -28,6 +28,10 @@ def filterBracket(inputStr):
     replacedStr = re.sub(r" \(.+?\)", "", inputStr, flags=re.I)
     return replacedStr
 
+def filterHash(inputStr):
+    replacedStr = re.sub(r" #.*", "", inputStr, flags=re.I)
+    return replacedStr
+
 def flipWinnerAndAwardName(res_dic):
     res = {}
     for i in res.keys():

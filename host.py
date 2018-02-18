@@ -73,6 +73,7 @@ def getAwardsAndWinners(tweet_text):
             award_name = regex_match.group(0)
             winner, award= ut.splitWord(award_name)
             winner = ut.filterBracket(winner)
+            award = ut.filterHash(award)
             
             if winner in res_dict.keys():
                 # getReaction doesn't actually get anything for this because of how the tweet are filtered, but that's ok bc we use it later
