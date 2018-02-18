@@ -34,11 +34,22 @@ def filterHash(inputStr):
 
 def flipWinnerAndAwardName(res_dic):
     res = {}
-    for i in res.keys():
-        awardName = res[i]
+    for i in res_dic.keys():
+        awardName = res_dic[i]
         winner = i
         res[awardName] = winner
         
     return res
 
 
+
+def generateComparasionDictionary(inputStr, stopword):
+    strList = inputStr.split(' ')
+    processedList = []
+    for i in strList:
+        if i in stopword:
+            continue
+        processedList.append(i)
+        
+    return processedList
+    
