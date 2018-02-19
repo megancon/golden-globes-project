@@ -1,0 +1,204 @@
+Hosts:  Seth Meyers
+Reaction is:  good
+
+Award name: Best Performance by an Actress in a Limited Series or a Motion Picture Made for Televi
+Winner is: Nicole Kidman
+Presenter is: ['Dwayne Johnson']
+Reaction is: sad
+
+Award name: Best Performance by an Actor in a Supporting Role in Any Motion Picture - Three Billboa
+Winner is: Sam Rockwell
+Presenter is: ['Susan Sarandon', 'Geena Davis']
+Reaction is: bad
+
+Award name: Best Performance by an Actress in a TV Series - Musical or Co
+Winner is: Rachel Brosnahan
+Presenter is: ['Emilia Clarke', 'Kit Harington']
+Reaction is: happy
+
+Award name: Best Performance by an Actress in a TV Series - Drama
+Winner is: Elisabeth Moss
+Presenter is: ['Gal Gadot']
+Reaction is: happy
+
+Award name: Best TV Series - Drama
+Winner is: The Handmaid's Tale
+Presenter is: ['Emilia Clarke', 'Kit Harington']
+Reaction is: good
+
+Award name: Best Performance by an Actor in a TV Series - Drama
+Winner is: Sterling K. Brown
+Presenter is: ['Garrett Hedlund', 'Kerry Washington', 'Roseanne Barr', 'John Goodman']
+Reaction is: mad
+
+Award name: Best Performance by an Actor in a Supporting Role in a Series, Limited Series or Mot
+Winner is: Alexander Skarsgård
+Presenter is: ['Robert Pattinson', 'Emma Watson']
+Reaction is: happy
+
+Award name: Best Original Score - Motion Picture
+Winner is: Alexandre Desplat
+Presenter is: ['Alicia Vikander']
+Reaction is: happy
+
+Award name: Best Original Song - Motion Picture in
+Winner is: Benj Pasek and Justin Paul for "This is Me"
+Presenter is: ['Alicia Vikander']
+Reaction is: mad
+
+Award name: Best Performance by an Actor in a Motion Picture - Musical or Comedy
+Winner is: James Franco
+Presenter is: ['Shirley MacLaine']
+Reaction is: mad
+
+Award name: Best Performance by an Actress in a Supporting Role in a Series, Limited Ser
+Winner is: Laura Dern
+Presenter is: ['Gal Gadot']
+Reaction is: good
+
+Award name: Best Performance by an Actress in a Supporting Role in Any Motion P
+Winner is: Allison Janney
+Presenter is: ['Alicia Vikander']
+Reaction is: cool
+
+Award name: Best Screenplay - Motion Picture
+Winner is: Martin McDonagh
+Presenter is: ['Alicia Vikander']
+Reaction is: happy
+
+Award name: Best Motion Picture - Foreign Language
+Winner is: In The Fade
+Presenter is: ['Hugh Grant', 'Sarah Jessica']
+Reaction is: good
+
+Award name: Best Performance by an Actor in a Limited Series or a Motion Picture
+Winner is: Ewan McGregor
+Presenter is: ['Robert Pattinson', 'Emma Watson']
+Reaction is: happy
+
+Award name: Best Performance by an Actor in a TV Series - Musical or Comedy
+Winner is: Aziz Ansari
+Presenter is: ['Shirley MacLaine', 'Emma Stone']
+Reaction is: mad
+
+Award name: Best TV Series - Musical or Comedy
+Winner is: The Marvelous Mrs. Maisel
+Presenter is: ['Emilia Clarke', 'Kit Harington']
+Reaction is: good
+
+Award name: Best Director - Motion Picture
+Winner is: Guillermo Del Toro
+Presenter is: ['Alicia Vikander']
+Reaction is: happy
+
+Award name: Best Television Limited Series or Motion Picture Made for Television -
+Winner is: Big Little Lies
+Presenter is: ['Robert Pattinson', 'Emma Watson']
+Reaction is: good
+
+Award name: Best Performance by an Actress in a Motion Picture - Musical or Comedy
+Winner is: Saoirse Ronan
+Presenter is: ['Alicia Vikander']
+Reaction is: mad
+
+Award name: Best Motion Picture - Musical or Comedy
+Winner is: Lady Bird
+Presenter is: ['Alicia Vikander']
+Reaction is: good
+
+Award name: Best Motion Picture - Animated
+Winner is: Coco
+Presenter is: ['Michael Keaton']
+Reaction is: mad
+
+Award name: Best Performance by an Actor in a Motion Picture - Drama
+Winner is: Gary Oldman
+Presenter is: ['Susan Sarandon', 'Geena Davis']
+Reaction is: good
+
+Award name: Best Performance by an Actress in a Motion Picture - Drama
+Winner is: Frances McDormand
+Presenter is: ['Susan Sarandon', 'Geena Davis']
+Reaction is: bad
+
+Award name: Best Motion Picture - Drama
+Winner is: Three Billboards Outside Ebbing, Missouri
+Presenter is: ['Susan Sarandon', 'Geena Davis']
+Reaction is: good
+
+---------- NOMINEES ATTEMPT ----------
+Award Name: best drama
+Nominees: ['If Go', 'When', 'Stranger', 'Things', 'Sorry']
+
+Award Name: best actor
+Nominees: ['My', 'Freddie Highmore', 'Tonight', 'Golden Globes', 'Kyle Mac', 'Lachlan', 'Get Out', 'Indie', 'Wire', 'Daniel Kaluuya', 'Not', 'Timoth', 'Chalamet', 'Larii', 'Ribeiro', 'If', '#Golden', 'Globes', 'How Timoth', 'Fucking', 'Timothee Chalamet', 'Mr', 'Me']
+
+Award Name: best actress
+Nominees: ['Margot', 'Golden Globes', 'She', 'The', 'Cut', 'Years', 'Torontounion', 'Elisabeth Moss', 'Issa Rae', 'Maggie Gyllenhaal', '#Saoirse', 'Ronan', 'Issa', 'Rae']
+
+Award Name: best supporting
+Nominees: ['Golden Globe Awards', 'Alison Janney', 'Best Supporting Actress', 'Series', 'Laura', 'Dern', '#Golden', 'Globes', '#Big', 'Little', 'Lies', 'Wonderof', 'She', 'Itcinema', 'Cdn', 'Press', 'Video', 'Canadian', 'Christopher Plummer', 'Sorry', '#Willem', 'Dafoe', 'Our', 'Henry Gibson', 'The Florida Project', 'Golden Globes', 'Willem Dafoe']
+
+Award Name: best original
+Nominees: ['Janet', 'Fanz', 'Janet Jackson', '#Golden', 'Globes', 'Again', 'Imthecyrus', 'Miley', 'Because', 'Lauras', 'Lil', 'Party', 'We', 'Remember Me', 'Trevino', 'Best Original Song', 'Best Animated Feature', '#Coco', 'Great', '#Remember', 'Me', 'The Greatest Showman', 'Golden Globes']
+
+Award Name: best comedy
+Nominees: ['Did', 'Get Out', 'Soooo', '#Getout', 'Amandas', 'Pic', 'Show', '#Get', 'Out', 'That', 'Get', 'Movie', 'Best Comedy Actor']
+
+Award Name: best picture
+Nominees: ['Call Me By Your Name', 'Um', 'Get Out', 'Jack Frost', 'Theatres', 'Written', 'Greta Gerwig', '#Lady', 'Bird', 'Wait', 'It', 'The Greatest Showman', 'Jewdy', 'Gold', 'If', 'Was', 'The Shape', 'Water']
+
+Award Name: best dad
+Nominees: ['David', 'Harbour']
+
+Award Name: best director
+Nominees: ['Nightline', 'Director Christopher Nolan', 'Christoper Nolan', 'If Christopher Nolan', 'Lady Bird', 'Greta', 'Dr', 'Zaius', 'Go', 'She', 'So', 'Real', 'Shape', 'Water', '#Golden', 'Globes Barbara Streisand', 'Natalie Portman', 'Women']
+
+Award Name: best motion
+Nominees: ['Zac', 'Efron', '#The', 'Greatest', 'Showman', 'Sethrogen', 'Disaster', 'Artist', 'Ms', 'Sarah', 'Paulson', 'The', 'Post', 'Movie', 'Dev Patel', 'Sunny Pawar', 'Lion', 'Billboards', 'Shut', 'Moonlight']
+
+Award Name: best wishes
+Nominees: ['The', 'Vidette', 'Best', 'Illinois', 'State', 'Laurie Metcalf']
+
+Award Name: best song
+Nominees: ['Siriano', 'This', 'Umm Coco', 'They', '#Coco', 'Proof', 'Golden Globes', 'Remember Me']
+
+Award Name: best tv
+Nominees: ['Oh', 'Negarrr', 'Stranger Things', 'Empty', 'Nest', '#Empty', 'Even', 'Ann Dowd']
+
+Award Name: best
+Nominees: ['Stranger Things']
+
+Award Name: best animated
+Nominees: ['Remember Me', 'Coco', 'Still', 'The', 'Movie', 'The Boss Baby']
+
+Award Name: best movies
+Nominees: ['#Coco']
+
+Award Name: best editing
+Nominees: ['If Baby Driver']
+
+Award Name: best musicalcomedy
+Nominees: ['Get Out', 'Film', 'Fatale', 'So', '#Get', 'Out']
+
+Award Name: best screenplay
+Nominees: ['The', '#Get', 'Out', '#Lady', 'Bird']
+
+Award Name: best foreign
+Nominees: ['Partially', 'Helen', 'Fantastic', 'Woman']
+
+Award Name: best comedymusical
+Nominees: ['Lady', 'Bird', 'Movie At']
+
+Award Name: best pictu
+Nominees: ['Melissa', 'Ottery', 'The', 'Lady Bird', 'Greta Gerwig']
+
+Award Name: best movie
+Nominees: ['So', 'Call Me By Your Name', 'Jaley', 'Elizabeth']
+
+Award Name: best pic
+Nominees: ['Please']
+
+Award Name: best dressed
+Nominees: ['If Frances Mc', 'Dormand']
+

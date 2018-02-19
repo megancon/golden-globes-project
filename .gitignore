@@ -7,3 +7,5 @@ test2.xlsx
 .idea
 Matt's script.ipynb
 untitled-1.py
+*.pyc
+__pycache__

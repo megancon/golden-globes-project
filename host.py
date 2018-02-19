@@ -1,13 +1,17 @@
 import pandas as pd
 import re
 import utilities as ut
-# coding=gbk 
+import warnings
 
-# all_tweets = pd.read_json("gg2018.json")
+# ignore warnings
+warnings.filterwarnings("ignore")
+
+# global vars
 host = ""
 host_dict = {}
 res_dict = {}
 award_presenters = {}
+nominees = {}
 reactions = ["mad", "upset", "happy", "sad", "good", "bad", "funny", "cool", "awful", "terrible"]
 reax_dict = {"host" : {}, "nominees" : {}, "winners": {}, "presenters" : {}}
 stopword_in_awardname = ["-", "by", "an", "a", "or", "for", "any", "in", "Best", "Performance"]
@@ -133,6 +137,41 @@ def getAwardsAndWinners(tweet_text):
                 # getReaction doesn't actually get anything for this because of how the tweet are filtered
                 getReactions("winners", winner, tweet_text, True)
 
+def getNominees(tweets):
+    # filter all tweets to tweets that match potential scripts for finding nominees
+    pattern1 = re.compile("(didn\'t win)|(doesn\'t win)|(deserves to win)|(deserved to win)|(better win)|(is nominated for)|(was nominated for)", re.IGNORECASE)
+    pattern2 = re.compile(r'(\sbest\s)', re.IGNORECASE)
+    filtered_tweets = tweets.loc[tweets['text'].str.contains(pattern1)]
+    filtered_tweets = filtered_tweets.loc[filtered_tweets['text'].str.contains(pattern2)]
+
+    for idx, tweet in filtered_tweets.iterrows():
+        tweet_str = str(tweet[1])
+        
+        # parse out potential award name (weak)
+        tweet_arr = tweet_str.lower().split(" ")
+        i = tweet_arr.index('best')
+        award = tweet_arr[i:i+2]
+        award[1] = re.sub(r'[^A-Z|a-z|\s]',r'',award[1])
+        award = " ".join(award).rstrip()
+        
+        # get potential nominees
+        match = pattern1.search(tweet_str)
+        first_part = tweet_str[:match.span(0)[0]]
+        pattern2 = re.compile(r'\#*[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*')    
+        regex_match = re.search(pattern2, first_part)
+
+        # check if there were any matches
+        # if so add them to dictionary and keep track of frequency
+        if regex_match:
+            for match in re.findall(pattern2, first_part):
+                if award not in nominees:
+                    nominees[award] = {}
+                
+                if match in nominees[award].keys():
+                    nominees[award][match] += 1
+                else:
+                    nominees[award][match] = 1
+    return
 
 if __name__ == '__main__':
     all_tweets = pd.read_json("gg2018.json")
@@ -142,9 +181,11 @@ if __name__ == '__main__':
         getHost(tweet_text)
         getAwardsAndWinners(tweet_text)
 
+    getNominees(all_tweets)
+
     host = max(host_dict, key=host_dict.get)
-    print("The host is ", host)
-    print("reaction is: ", max(reax_dict["host"][host], key= reax_dict["host"][host].get));
+    print("Hosts: ", host)
+    print("Reaction is: ", max(reax_dict["host"][host], key= reax_dict["host"][host].get))
     print()
     
     
@@ -177,3 +218,10 @@ if __name__ == '__main__':
         print("Reaction is: " + str( max(reax_dict["winners"][i], key= reax_dict["winners"][i].get)))
         print("")
         
+
+    # print scrappy nominees
+    print("---------- NOMINEES ATTEMPT ----------")
+    for weak_award in nominees:
+        print("Award Name: " + weak_award)
+        print("Nominees: " + str(list(nominees[weak_award].keys())))
+        print("")
